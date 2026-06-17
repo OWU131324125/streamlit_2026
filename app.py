@@ -4,7 +4,7 @@ from datetime import date
 import os
 
 st.set_page_config(
-    page_title="JobNavi",
+    page_title="就活ログ",
     page_icon="💼",
     layout="wide"
 )
@@ -57,7 +57,7 @@ df["面接日"] = pd.to_datetime(
 # =====================
 # タイトル
 # =====================
-st.title("💼 JobNavi")
+st.title("💼 就活ログ")
 
 # =====================
 # サイドバー
@@ -124,7 +124,6 @@ with st.sidebar:
             "二次面接",
             "最終面接",
             "内定",
-            "不合格"
         ]
     )
 
